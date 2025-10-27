@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">AS Clean &amp; Service</title>
+  <desc id="logoDesc">Stylizowane okno z błękitnym gradientem i nazwą firmy</desc>
+  <defs>
+    <linearGradient id="windowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F7AE0"/>
+      <stop offset="100%" stop-color="#0B3F76"/>
+    </linearGradient>
+    <linearGradient id="shineGradient" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".75"/>
+      <stop offset=".55" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="42" height="40" rx="10" fill="url(#windowGradient)"/>
+  <path d="M10 10h22v20H10z" fill="none" stroke="#f5fbff" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M21 10v20M10 20h22" stroke="#f5fbff" stroke-width="2" stroke-linecap="round"/>
+  <path d="M10 12c5 0 8-4 11-4s6 4 11 4" stroke="#1F7AE0" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+  <path d="M10 10h22v20H10z" fill="url(#shineGradient)"/>
+  <g fill="#0B3F76" font-family="Inter, 'Segoe UI', sans-serif" font-weight="700">
+    <text font-size="11" x="50" y="18">AS Clean</text>
+    <text font-size="11" x="50" y="32">&amp; Service</text>
+  </g>
+</svg>
