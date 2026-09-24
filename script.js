@@ -32,7 +32,7 @@
       const target = document.getElementById(id);
       if (target) {
         e.preventDefault();
-        window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - 70, behavior: 'smooth' });
+        window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - 68, behavior: 'smooth' });
       }
     });
   });
@@ -52,7 +52,7 @@
       const msgEl = document.getElementById('msg');
       if (msgEl) {
         msgEl.value = '';
-        msgEl.style.height = '36px';
+        msgEl.style.height = '';
       }
       const focusField = document.getElementById('name');
       if (focusField) focusField.focus();

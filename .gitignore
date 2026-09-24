@@ -1,2 +1,8 @@
 .DS_Store
 **/.DS_Store
+
+# Pliki z hasłami / sekretami – nigdy nie commitować
+Has*a*.txt
+*.tct.txt
+.env
+.env.*

@@ -1,33 +1,36 @@
-
+<!doctype html>
 <html lang="pl">
-<head >
-  <meta charset="utf-8"></meta>
-  <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-  <title >AS Clean & Service – Profesjonalne mycie obiektów szklanych (Cała Polska)</title>
-  <meta name="description" content="AS Clean & Service — kilkanaście lat doświadczenia w myciu obiektów szklanych w Niemczech (NRW). Ta sama jakość i referencje dostępne teraz w całej Polsce. Bezpłatna wycena."></meta>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AS Clean & Service – Profesjonalne mycie obiektów szklanych (Cała Polska)</title>
+  <meta name="description" content="AS Clean & Service — kilkanaście lat doświadczenia w myciu obiektów szklanych w Niemczech (NRW). Ta sama jakość i referencje dostępne teraz w całej Polsce. Bezpłatna wycena.">
+  <link rel="icon" type="image/png" href="images/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="preload" as="image" href="images/background.jpg"></link>
-  <meta name="theme-color" content="#0b3b59"></meta>
-  
-  <meta property="og:title" content="AS Clean & Service – Profesjonalne mycie obiektów szklanych"></meta>
-  <meta property="og:description" content="Mycie okien, witryn i fasad szklanych. Sprawdzone realizacje w Niemczech (NRW), teraz również w całej Polsce. Bezpłatna wycena."></meta>
-  <meta property="og:type" content="website"></meta>
-  <meta property="og:image" content="images/background.jpg"></meta>
-  <meta property="og:locale" content="pl_PL"></meta>
-  <link rel="stylesheet" href="styles.css"></link>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="images/background.jpg">
+  <meta name="theme-color" content="#0b2a4a">
+
+  <meta property="og:title" content="AS Clean & Service – Profesjonalne mycie obiektów szklanych">
+  <meta property="og:description" content="Mycie okien, witryn i fasad szklanych. Sprawdzone realizacje w Niemczech (NRW), teraz również w całej Polsce. Bezpłatna wycena.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://as-cleaning.pl/images/background.jpg">
+  <meta property="og:url" content="https://as-cleaning.pl/">
+  <link rel="canonical" href="https://as-cleaning.pl/">
+  <meta property="og:locale" content="pl_PL">
+  <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "AS Clean & Service",
     "description": "Profesjonalne mycie obiektów szklanych: okna, witryny i fasady. Kilkanaście lat w Niemczech (NRW), teraz także w całej Polsce.",
-    "image": "images/background.jpg",
+    "image": "https://as-cleaning.pl/images/background.jpg",
     "areaServed": "Cała Polska",
-    "telephone": ["+48 575760520"],
-    "email": "as.clean.service@gmail.com",
-    "url": "https://twoja-domena.pl",
+    "telephone": ["+48 575 760 520", "+49 151 2490 9786"],
+    "email": "kontakt@as-cleaning.pl",
+    "url": "https://as-cleaning.pl",
     "address": {
       "@type": "PostalAddress",
       "addressCountry": "PL",
@@ -36,22 +39,24 @@
   }
   </script>
 </head>
-<body >
+<body>
   <a class="skip" href="#main">Pomiń do treści</a>
-  
-  <header >
+
+  <header class="site-header">
     <div class="container nav">
       <a class="brand" href="#" aria-label="AS Clean & Service – strona główna">
-        <img src="images/logo.svg" alt="AS Clean & Service" width="120" height="40" loading="lazy" decoding="async">
+        <img src="images/logo.svg" alt="AS Clean & Service" width="120" height="40" decoding="async">
       </a>
-      <nav class="links" role="navigation">
+      <nav class="links" aria-label="Główna nawigacja">
         <a href="#firma">Firma</a>
         <a href="#oferta">Oferta</a>
         <a href="#realizacje">Realizacje</a>
         <a href="#kontakt">Kontakt</a>
-        <a class="btn" href="#kontakt">Bezpłatna wycena</a>
+        <a class="btn btn--sm" href="#kontakt">Bezpłatna wycena</a>
       </nav>
-      <button class="menu-btn" aria-label="Otwórz menu" aria-controls="mobileNav" aria-expanded="false">☰</button>
+      <button class="menu-btn" aria-label="Otwórz menu" aria-controls="mobileNav" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
     </div>
     <div class="container mobile" id="mobileNav" hidden>
       <a href="#firma">Firma</a>
@@ -62,92 +67,142 @@
     </div>
   </header>
 
-  
   <section class="hero" aria-label="AS Clean & Service – mycie obiektów szklanych">
     <div class="container hero-grid">
-      <div >
-        <div class="kicker">Obiekty szklane • Cała Polska</div>
-        <h1 >Profesjonalne mycie okien, witryn i fasad</h1>
+      <div class="hero-copy">
+        <div class="kicker"><span class="dot" aria-hidden="true"></span>Obiekty szklane • Cała Polska</div>
+        <h1>Profesjonalne mycie okien, witryn i&nbsp;fasad</h1>
         <p class="lead">Ponad dekada doświadczenia zdobytego w NRW (Niemcy) — te same, sprawdzone standardy przenosimy teraz do realizacji w całej Polsce: biurowce, parki logistyczne, salony automotive i obiekty usługowe.</p>
         <div class="btn-row">
-          <a class="btn" href="#kontakt">Bezpłatna wycena</a>
-          <a class="btn ghost" href="#oferta">Zakres usług</a>
+          <a class="btn btn--lg" href="#kontakt">Bezpłatna wycena
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn--lg ghost" href="#oferta">Zakres usług</a>
         </div>
       </div>
       <div class="hero-card">
-        <strong >Jakość bez smug</strong>
-        <p class="muted tip-spaced">Czysta woda / prace na wysokości / zabezpieczenie BHP.</p>
-        <strong >Terminowość</strong>
-        <p class="muted tip-spaced">Pracujemy wg ustalonego harmonogramu — również poza godzinami pracy.</p>
+        <div class="hero-card__item">
+          <span class="icon-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6L18.5 9.5l-4.6 1.9L12 16l-1.9-4.6L5.5 9.5l4.6-1.9z"/><path d="M19 15l.8 1.9 1.9.8-1.9.8L19 20.4l-.8-1.9-1.9-.8 1.9-.8z"/></svg>
+          </span>
+          <div>
+            <strong>Jakość bez smug</strong>
+            <p>Czysta woda / prace na wysokości / zabezpieczenie BHP.</p>
+          </div>
+        </div>
+        <div class="hero-card__item">
+          <span class="icon-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          </span>
+          <div>
+            <strong>Terminowość</strong>
+            <p>Pracujemy wg ustalonego harmonogramu — również poza godzinami pracy.</p>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div><b>10+</b><span>lat doświadczenia</span></div>
+          <div><b>DE → PL</b><span>standard z NRW</span></div>
+        </div>
       </div>
     </div>
   </section>
+
+  <div class="trust" aria-label="Referencje">
+    <div class="container trust__inner">
+      <span class="trust__label">Referencje z realizacji w NRW</span>
+      <ul class="trust__list">
+        <li>DuMont</li>
+        <li>Krombacher</li>
+        <li>Hitachi</li>
+        <li>DHL</li>
+      </ul>
+    </div>
+  </div>
 
   <main id="main">
-  
+
   <section id="firma">
     <div class="container">
-      <h2>O firmie</h2>
-      <p class="sub">AS Clean & Service od kilkunastu lat obsługuje klientów w Niemczech (Nordrhein-Westfalen). Dzięki doświadczonym zespołom i zapleczu technicznemu rozszerzamy teraz usługi na całą Polskę — od biurowców po salony samochodowe.</p>
+      <div class="section-head">
+        <span class="eyebrow">O firmie</span>
+        <h2>Doświadczenie z Niemiec, teraz w całej Polsce</h2>
+        <p class="sub">AS Clean & Service od kilkunastu lat obsługuje klientów w Niemczech (Nordrhein-Westfalen). Dzięki doświadczonym zespołom i zapleczu technicznemu rozszerzamy teraz usługi na całą Polskę — od biurowców po salony samochodowe.</p>
+      </div>
       <div class="cards">
         <article class="card">
+          <span class="icon-badge icon-badge--light" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="1.5"/><path d="M9 7h.01M15 7h.01M9 11h.01M15 11h.01M9 15h.01M15 15h.01"/></svg>
+          </span>
           <span class="chip">Komercyjne</span>
-          <h3 >Biura, hotele, salony</h3>
-          <p >Regularne serwisy i zlecenia jednorazowe, prace poza godzinami funkcjonowania obiektów.</p>
+          <h3>Biura, hotele, salony</h3>
+          <p>Regularne serwisy i zlecenia jednorazowe, prace poza godzinami funkcjonowania obiektów.</p>
         </article>
         <article class="card">
+          <span class="icon-badge icon-badge--light" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V5l7-2 7 2v16"/><path d="M9 9h6M9 13h6M9 17h6"/></svg>
+          </span>
           <span class="chip">Fasady</span>
-          <h3 >Mycie fasad szklanych</h3>
-          <p >System czystej wody, podnośniki i prace na wysokości z zachowaniem norm BHP.</p>
+          <h3>Mycie fasad szklanych</h3>
+          <p>System czystej wody, podnośniki i prace na wysokości z zachowaniem norm BHP.</p>
         </article>
         <article class="card">
+          <span class="icon-badge icon-badge--light" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.7-7 9-4-1.3-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+          </span>
           <span class="chip">Referencje</span>
-          <h3 >Sprawdzeni klienci</h3>
-          <p >Referencje m.in. DuMont, Krombacher, Hitachi oraz obiekty DHL w NRW — ten sam zespół realizuje teraz projekty dla centrów biurowych, parków logistycznych i salonów automotive w całej Polsce.</p>
+          <h3>Sprawdzeni klienci</h3>
+          <p>Referencje m.in. DuMont, Krombacher, Hitachi oraz obiekty DHL w NRW — ten sam zespół realizuje teraz projekty dla centrów biurowych, parków logistycznych i salonów automotive w całej Polsce.</p>
         </article>
       </div>
     </div>
   </section>
 
-  
-  <section id="oferta">
+  <section id="oferta" class="section--alt">
     <div class="container">
-      <h2>Zakres usług</h2>
-      <p class="sub">Mycie szyb i przeszkleń, witryn sklepowych oraz fasad szklanych. Zlecenia stałe i jednorazowe.</p>
+      <div class="section-head">
+        <span class="eyebrow">Oferta</span>
+        <h2>Zakres usług</h2>
+        <p class="sub">Mycie szyb i przeszkleń, witryn sklepowych oraz fasad szklanych. Zlecenia stałe i jednorazowe.</p>
+      </div>
       <div class="cards">
-        <article class="card">
-          <h3 >Mycie okien</h3>
-          <ul >
-            <li >Biura, hotele, obiekty usługowe</li>
-            <li >Wejścia, witryny, przeszklone atria</li>
-            <li >Bez smug, bezpieczne środki</li>
+        <article class="card card--service">
+          <span class="card__num">01</span>
+          <h3>Mycie okien</h3>
+          <ul class="checklist">
+            <li>Biura, hotele, obiekty usługowe</li>
+            <li>Wejścia, witryny, przeszklone atria</li>
+            <li>Bez smug, bezpieczne środki</li>
           </ul>
         </article>
-        <article class="card">
-          <h3 >Witryny i przeszklenia</h3>
-          <ul >
-            <li >Salony samochodowe, retail</li>
-            <li >Regularne serwisy wg SLA</li>
-            <li >Prace poza godzinami otwarcia</li>
+        <article class="card card--service">
+          <span class="card__num">02</span>
+          <h3>Witryny i przeszklenia</h3>
+          <ul class="checklist">
+            <li>Salony samochodowe, retail</li>
+            <li>Regularne serwisy wg SLA</li>
+            <li>Prace poza godzinami otwarcia</li>
           </ul>
         </article>
-        <article class="card">
-          <h3 >Fasady szklane</h3>
-          <ul >
-            <li >Podnośniki / prace na wysokości</li>
-            <li >System czystej wody (demineralizowanej)</li>
-            <li >Bezpieczeństwo i oznaczenia stref</li>
+        <article class="card card--service">
+          <span class="card__num">03</span>
+          <h3>Fasady szklane</h3>
+          <ul class="checklist">
+            <li>Podnośniki / prace na wysokości</li>
+            <li>System czystej wody (demineralizowanej)</li>
+            <li>Bezpieczeństwo i oznaczenia stref</li>
           </ul>
         </article>
       </div>
     </div>
   </section>
 
-  
   <section id="realizacje">
     <div class="container">
-      <h2>Realizacje</h2>
-      <p class="sub">Wybrane zdjęcia z prac terenowych.</p>
+      <div class="section-head">
+        <span class="eyebrow">Realizacje</span>
+        <h2>Nasze prace</h2>
+        <p class="sub">Wybrane zdjęcia z prac terenowych. Kliknij, aby powiększyć.</p>
+      </div>
       <div class="gallery">
         <a href="images/1000064798.jpg" class="lightbox-link">
           <img src="images/1000064798.jpg" alt="Mycie przeszkleń – realizacja 1" loading="lazy" decoding="async" width="800" height="600">
@@ -160,19 +215,20 @@
         </a>
         <a href="images/1000064803.jpg" class="lightbox-link">
           <img src="images/1000064803.jpg" alt="Mycie okien w obiekcie komercyjnym – realizacja 4" loading="lazy" decoding="async" width="800" height="600">
+          <span class="gallery-more gallery-more--sm" aria-label="Zobacz pozostałe 6 zdjęć">+6</span>
         </a>
-        <a href="images/1000064799.jpg" class="lightbox-link">
+        <a href="images/1000064799.jpg" class="lightbox-link gallery-item--lg-only">
           <img src="images/1000064799.jpg" alt="Mycie szklanych elewacji – realizacja 5" loading="lazy" decoding="async" width="800" height="600">
         </a>
-        <a href="images/1000065438.jpg" class="lightbox-link">
+        <a href="images/1000065438.jpg" class="lightbox-link gallery-item--lg-only">
           <img src="images/1000065438.jpg" alt="Czyszczenie przeszkleń biurowych – realizacja 6" loading="lazy" decoding="async" width="800" height="600">
         </a>
-        <a href="images/1000065439.jpg" class="lightbox-link">
+        <a href="images/1000065439.jpg" class="lightbox-link gallery-item--lg-only">
           <img src="images/1000065439.jpg" alt="Mycie witryn handlowych – realizacja 7" loading="lazy" decoding="async" width="800" height="600">
         </a>
-        <a href="images/1000065440.jpg" class="lightbox-link">
+        <a href="images/1000065440.jpg" class="lightbox-link gallery-item--lg-only">
           <img src="images/1000065440.jpg" alt="Konserwacja szklanej fasady – realizacja 8" loading="lazy" decoding="async" width="800" height="600">
-          <span class="gallery-more" aria-label="Zobacz pozostałe 2 zdjęcia">+2</span>
+          <span class="gallery-more gallery-more--lg" aria-label="Zobacz pozostałe 2 zdjęcia">+2</span>
         </a>
         <a href="images/1000065441.jpg" class="lightbox-link gallery-link--hidden">
           <img src="images/1000065441.jpg" alt="Mycie przeszkleń w parku logistycznym – realizacja 9" loading="lazy" decoding="async" width="800" height="600">
@@ -184,63 +240,75 @@
     </div>
   </section>
 
-  
-  <section id="kontakt">
+  <section id="kontakt" class="section--contact">
     <div class="container contact">
       <div class="contact-info">
-        <h2>Kontakt</h2>
-        <p class="sub">Zadzwoń lub napisz — przygotujemy wycenę.</p>
-        <div class="card card--p-18 contact-card">
-          <p class="contact-card__row">
-            <span class="contact-card__label">🇵🇱 Telefon</span>
-            <a href="tel:+48575760520">+48 575 760 520</a>
-          </p>
-          <p class="contact-card__row">
-            <span class="contact-card__label">🇩🇪 Telefon</span>
-            <a href="tel:+4915124909786">+49 151 2490 9786</a>
-          </p>
-          <p class="contact-card__row">
-            <span class="contact-card__label">E‑mail</span>
-            <a href="mailto:as.clean.service@gmail.com">as.clean.service@gmail.com</a>
-          </p>
-          <p class="contact-card__note muted">Docelowo warto mieć e‑mail w swojej domenie (np. kontakt@as-clean-service.pl). Zmienisz później 1:1.</p>
+        <span class="eyebrow eyebrow--light">Kontakt</span>
+        <h2>Porozmawiajmy o Twoim obiekcie</h2>
+        <p class="sub">Zadzwoń lub napisz — przygotujemy bezpłatną wycenę.</p>
+        <div class="contact-list">
+          <a class="contact-item" href="tel:+48575760520">
+            <span class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+            </span>
+            <span><small>Telefon · Polska</small>+48 575 760 520</span>
+          </a>
+          <a class="contact-item" href="tel:+4915124909786">
+            <span class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+            </span>
+            <span><small>Telefon · Niemcy</small>+49 151 2490 9786</span>
+          </a>
+          <a class="contact-item" href="mailto:kontakt@as-cleaning.pl">
+            <span class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            </span>
+            <span><small>E‑mail</small>kontakt@as-cleaning.pl</span>
+          </a>
         </div>
       </div>
       <form id="contactForm" data-endpoint="/api/contact" novalidate class="contact-form">
-        <input type="text" name="company" tabindex="-1" autocomplete="off" class="contact-form__honeypot" aria-hidden="true" />
+        <h3 class="contact-form__title">Zapytanie o wycenę</h3>
+        <input type="text" name="company" tabindex="-1" autocomplete="off" class="contact-form__honeypot" aria-hidden="true">
         <div class="contact-form__field">
           <label for="name">Imię i nazwisko</label>
-          <input id="name" name="name" placeholder="Jan Kowalski" required />
+          <input id="name" name="name" placeholder="Jan Kowalski" autocomplete="name" required>
         </div>
         <div class="contact-form__field">
           <label for="email">E‑mail</label>
-          <input id="email" name="email" type="email" placeholder="jan@firma.pl" required />
+          <input id="email" name="email" type="email" placeholder="jan@firma.pl" autocomplete="email" required>
         </div>
         <div class="contact-form__field">
           <label for="msg">Wiadomość</label>
-          <textarea id="msg" name="msg" rows="1" placeholder="Napisz kilka słów o obiekcie" required></textarea>
+          <textarea id="msg" name="msg" rows="4" placeholder="Napisz kilka słów o obiekcie — rodzaj, lokalizacja, przybliżona powierzchnia przeszkleń" required></textarea>
         </div>
-        <div class="contact-form__footer contact-form__footer--right">
+        <div class="contact-form__footer">
           <button class="btn btn--ghost" type="button" id="contactClear">Wyczyść</button>
-          <button class="btn" type="submit">Wyślij</button>
+          <button class="btn" type="submit">Wyślij zapytanie</button>
         </div>
       </form>
     </div>
   </section>
   </main>
 
-  <footer >
-    <div class="container">
-      © <span id="year"></span> AS Clean & Service • Wszelkie prawa zastrzeżone
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <img src="images/logo.svg" alt="AS Clean & Service" width="120" height="40" loading="lazy" decoding="async" class="footer__logo">
+      <nav class="footer__links" aria-label="Stopka">
+        <a href="#firma">Firma</a>
+        <a href="#oferta">Oferta</a>
+        <a href="#realizacje">Realizacje</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <p class="footer__copy">© <span id="year"></span> AS Clean & Service • Wszelkie prawa zastrzeżone</p>
     </div>
   </footer>
 
-  
   <div id="lightbox" class="lightbox" hidden>
     <button class="lightbox-close" type="button" aria-label="Zamknij galerię">✕</button>
     <button class="lightbox-nav lightbox-prev" type="button" aria-label="Poprzednie zdjęcie">‹</button>
     <figure class="lightbox-stage">
-      <img id="lightbox-img" src="" alt=""></img>
+      <img id="lightbox-img" src="" alt="">
     </figure>
     <button class="lightbox-nav lightbox-next" type="button" aria-label="Następne zdjęcie">›</button>
   </div>
